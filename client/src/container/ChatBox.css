@@ -1,0 +1,34 @@
+.chat-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.chat-box-container {
+    height: 80vh;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.chat-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-buttons {
+    border-top: solid 1px #f1f0f0;
+}
+
+.chat-buttons input {
+    border: none;
+    height: calc(10vh - 5px);
+    font-size: 14px;
+    padding-left: 50px;
+    width: 90%;
+}
+
+.chat-buttons button {
+    width: calc(10% - 50px);
+    height: calc(10vh - 5px);
+}

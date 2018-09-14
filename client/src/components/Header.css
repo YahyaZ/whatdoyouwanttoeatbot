@@ -1,0 +1,15 @@
+.header {
+    border-bottom: 1px solid #f1f0f0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 10vh;
+}
+
+.header h1 {
+    margin: 10px 0 5px;
+}
+
+.header p {
+    margin: 5px 0 10px 0;
+}
